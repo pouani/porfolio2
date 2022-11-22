@@ -1,25 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Layout from './pages/Layout';
+import Experience from './pages/Experience';
+import Works from './pages/Works';
+
+import { motion, useScroll } from "framer-motion";
+
 function App() {
+
+  const { scrollYProgress } = useScroll();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+        <div className="">
+            <Navbar />
+            <motion.div
+              className="progress-bar"
+              style={{ scaleX: scrollYProgress }}
+            />
+            <Routes>
+              <Route index element={<Layout />} />
+              <Route path="/experience" element={<Experience />} />
+              <Route path="/works" element={<Works />} />
+            </Routes>
+            <Footer />
+        </div>
+    </Router>
   );
 }
 

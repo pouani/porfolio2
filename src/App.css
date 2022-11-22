@@ -1,38 +1,370 @@
-.App {
-  text-align: center;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&family=Inter:wght@300;600;700;900&display=swap');
+
+.baseapp{
+    background-color: #1E212B;
+}
+.progress-bar {
+    z-index: 10000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background: #FCCA4A;
+    transform-origin: 0%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+#progress {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    transform: rotate(-90deg);
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  circle {
+    stroke-dashoffset: 0;
+    stroke-width: 15%;
+    fill: none;
   }
-  to {
-    transform: rotate(360deg);
+
+  .bg {
+    stroke: #fafafa;
+    opacity: 0.3;
   }
+
+  #progress-circle{
+    position: absolute;
+    right: 3%;
+  }
+  
+  #progress-circle .indicator {
+    stroke: #fafafa;
+  }
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #1E212B; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 8px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.logo{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.4rem;
+    letter-spacing: -0.07em;
+    color: #F2F3F4;
+}
+
+.header{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.header-welcome{
+    width: 16rem;
+    padding: 8px 16px;
+    background: #2F3343;
+    border-radius: 14px;
+}
+.svg{
+    z-index: -10;
+    position: absolute;
+}
+.svg-top{
+    top: -10%;
+    right: 0;
+}
+
+.svg-bottom{
+    bottom: 0;
+    left: 0;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2rem;
+    letter-spacing: -0.07em;
+}
+
+.header-title{
+    color: #FCCA4A;
+}
+
+.header-text{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    /* or 160% */
+    letter-spacing: -0.07em;
+}
+
+.header-btn{
+    padding: 18px 24px;
+    background: #F3AF00;
+    border-radius: 91px;
+    transform: rotate(-0.7deg);
+}
+
+.about{
+    /* height: 70vh; */
+}
+
+.about-svg{
+    z-index: -10;
+    position: absolute;
+    right: 0;
+    top: 110%;
+}
+
+.h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height */
+    letter-spacing: -0.05em;
+    /* Yellow/200 */
+    color: #FCCA4A;
+}
+
+.social{
+    z-index: 99;
+    position: fixed;
+    top: 40%;
+    right: 2%;
+}
+
+.social-net li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 37px;
+    height: 37px;
+    border-radius: 37px;
+    transform: 1s;
+    transition: all 1s ease;
+    cursor: pointer;
+    border: 1px solid #4A5064;
+}
+
+.social-net li:hover{
+    background: #4A5064;
+}
+
+.about-content > p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.about-content-tech{
+    background: #2F3343;
+    box-shadow: 0px 8px 24px #1E212B;
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.tech-list svg{
+    color: #F3AF00;
+}
+
+.list{
+    color: #F3AF00;
+}
+
+.footer{
+    background: #4A5064;
+}
+
+.footer-copy{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.copy-name{
+    color: #FCCA4A;
+    font-weight: 600;
+}
+
+.exp{
+    max-width: 59rem;
+    margin: auto;
+}
+
+.react-tabs__tab-panel--selected {
+    display: block;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+.react-tabs__tab--selected {
+    background: #FCCA4A !important;
+    border-color: none !important;
+    color: black;
+    border-radius: 5px 5px 0 0;
+}
+
+.react-tabs__tab{
+    border: none !important;
+    border-bottom: none !important;
+}
+
+.exp-btn{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F3AF00;
+}
+
+.exp-desc{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.tech{
+    font-family: 'Fira Code', monospace;
+}
+
+.work-out{
+    background: #3F4352;
+    border-radius: 8px;
+    padding: 16px 32px;
+}
+
+.works-img{
+    background: #2F3343;
+    border-radius: 8px;
+}
+
+.works-img img{
+    border-radius: 4px;
+}
+
+.work-content{
+    overflow-x: scroll;
+    padding: 20px 0;
+    margin: 0 auto;
+    flex: 0 0 600px;
+}
+
+.github-item{
+    border: 1px solid #3F4352;
+    border-radius: 8px;
+    padding: 32px;
+    transition: all ease-out 1s;
+    transform: 6s;
+}
+.github-item:hover{
+    border: 1px solid #FCCA4A;
+    box-shadow: 0px 16px 32px #000000;
+}
+
+.github-item h3{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    max-width: 214px;
+    color: #FCCA4A;
+}
+
+.github-item i{
+    color: #B5B7BF;
+}
+
+/* .react-tabs__tab{
+    display: block !important;
+    padding: 18px 12px !important;
+} */
+
+@media screen and (min-width: 850px){
+    .header{
+        height: 100vh;
+    }
+    h1{
+        width: 66rem;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 87px;
+        letter-spacing: -0.07em;
+    }
+    .header-text{
+        width: 56rem;
+        font-size: 20px;
+        line-height: 32px;
+    } 
+    .svg-top{
+        z-index: -10;
+        position: absolute;
+        top: -10%;
+        right: 0;
+    }
+    
+    .svg-bottom{
+        z-index: -10;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    } 
+    .about{
+        height: 100vh;
+    }
+    
+    .about-svg{
+        top: 150%;
+    }
+
+    .social{
+        position: fixed;
+        top: 60%;
+        right: 2%;
+    }
+
+    .work-title{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        /* identical to box height */
+        letter-spacing: -0.05em;
+        color: #FCCA4A;
+    }
+    .works-img{
+        border-radius: 24px;
+    }
+
+    .work-item{
+        border-right: 1px dashed #1E212B;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
 }
