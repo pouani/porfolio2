@@ -11,7 +11,7 @@ function Header() {
         </svg>
 
         </div>
-        <div data-aos="fade-up" data-aos-duration="900" className="header-text px-4 md:px-12 xl:px-16">
+        <div data-aos="fade-up" data-aos-duration="900" className="mt-44 md:mt-0 header-text px-4 md:px-12 xl:px-16">
             <h3 className="header-welcome">Bienvenue sur mon profil...</h3>
             <div className="mt-8">
                 <h1>

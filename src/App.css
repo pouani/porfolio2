@@ -11,6 +11,15 @@ body{
 .baseapp{
     background-color: #1E212B;
 }
+
+.nav{
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: rgb(30, 33, 43, 0.7);
+    backdrop-filter: blur(30px);
+}
 .progress-bar {
     z-index: 10000;
     position: fixed;
@@ -47,7 +56,8 @@ body{
   #progress-circle{
     z-index: 999;
     position: fixed;
-    right: 3%;
+    /* right: 12%; */
+    top: 30%;
   }
   
   #progress-circle .indicator {
@@ -345,7 +355,6 @@ h1{
     background: #1E212B;
     right: 0;
     z-index: 999;
-    height: 40%;
     padding: 2rem;
 }
 

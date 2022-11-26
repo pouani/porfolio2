@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 function Navbar() {
-  const [translate, setTranslate] = React.useState("translate(0)");
+  const [translate, setTranslate] = React.useState("translate(100%)");
 
   return (
     <nav className="nav px-4 md:px-12 xl:px-16 flex justify-between py-6" >

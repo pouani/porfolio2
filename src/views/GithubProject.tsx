@@ -63,7 +63,7 @@ function GithubProject() {
                             Api Ecommerce partiel
                         </h3>
                         <p>
-                            Mise sur pieds d’une api laravel avec authentification.
+                            Mise sur pieds d’une api laravel ecommerce avec gestion de role.
                         </p>
                         <p className="github-tech">Laravel8 - Mysql - Postman</p>
                     </a>
@@ -72,19 +72,19 @@ function GithubProject() {
                     data-aos-delay="80"
                     data-aos-duration="1500"
                 >
-                    <a href="" className="flex flex-col gap-6 justify-between">
+                    <a target="_blank" rel="noreferrer" href="https://github.com/pouani/product-content-challenge.git" className="flex flex-col gap-6 justify-between">
                         <div className="flex justify-between">
                             <i className="fa-brands fa-github"></i>
                             <i className="fa-regular fa-folder"></i>
                         </div>
                         <h3>
-                            Conception d’une
-                            Api prise de rendez-vous
+                            Product preview 
+                            card component
                         </h3>
                         <p>
-                            Mise sur pieds d’une api de prise de rendez-vous dans le domaine sanitaire.
+                            Frontend Mentor - Product preview card component
                         </p>
-                        <p className="github-tech">Asp.Net 5 core - Mysql</p>
+                        <p className="github-tech">Html5 - Css3</p>
                     </a>
                 </li>
             </ul>
