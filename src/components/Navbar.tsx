@@ -6,11 +6,11 @@ function Navbar() {
 
   return (
     <nav className="nav px-4 md:px-12 xl:px-16 flex justify-between py-6" >
-      <Link to="porfolio2/" className="logo list-none" data-aos="fade-down" data-aos-duration="900">David-P.</Link>
+      <Link to="/" className="logo list-none" data-aos="fade-down" data-aos-duration="900">David-P.</Link>
       <ul data-aos="fade-left" data-aos-duration="900" className="list-none hidden md:flex gap-12">
-        <Link to="porfolio2/" className="">Apropos</Link>
-        <Link to="porfolio2/experience" className="">Experiences</Link>
-        <Link to="porfolio2/works" className="">Projets</Link>
+        <Link to="/" className="">Apropos</Link>
+        <Link to="/experience" className="">Experiences</Link>
+        <Link to="/works" className="">Projets</Link>
         <li>Soft-skills</li>
       </ul>
       <ul className="md:hidden">
