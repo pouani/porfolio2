@@ -48,7 +48,7 @@ export const EXPERIENCES: Experiences[] = [
     {
         id: 5,
         name: "YouStreming",
-        describe: "Developpeur frontend freelance",
+        describe: "Developpeur frontend",
         tasks: [
             "Ecrire du code moderne, perfomant et maintenable",
             "Travailler avec une varietée de langages, de plate-formes telsque JavaScript, Html, Jquery",

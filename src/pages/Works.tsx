@@ -11,7 +11,7 @@ function Works() {
   return (
     <div className="work px-4 md:px-12 xl:px-16 py-8">
         <svg id="progress-circle" width="100" height="100" viewBox="0 0 100 100">
-            <circle cx="50" cy="50" r="30" pathLength="1" className="bg" style={{strokeDashoffset: 0, strokeWidth: 15, fill: 'none'}}/>
+            <circle cx="50" cy="50" r="30" pathLength="1" className="bg" style={{strokeDashoffset: 0, strokeWidth: "15%", fill: 'none'}}/>
             <motion.circle
             cx="50"
             cy="50"
@@ -22,12 +22,13 @@ function Works() {
             />
         </svg>
         <div className="">
-            <h2 className="flex items-center gap-2 mb-16">
+            <h2 data-aos="fade-up"
+                data-aos-anchor-placement="bottom-center" className="flex items-center gap-2 mb-16">
                 <span className="h2">Projects Réalisés</span>
-                <hr className="w-1/2 hr mt-2 ml-2"/>
+                <hr className="w-1/2 hr mt-2 ml-2 hidden md:block"/>
             </h2><br />
 
-            <div className="work-content flex gap-16" ref={ref}>
+            <div data-aos="fade-down-left" data-aos-duration="1000" className="work-content flex gap-16" ref={ref}>
                 <div className="work-item m-auto">
                     <div className="md:flex justify-between">
                         <h2 className="work-title">Medicasure</h2>

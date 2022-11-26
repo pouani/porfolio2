@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 function Navbar() {
   return (
     <nav className="sticky nav px-4 md:px-12 xl:px-16 flex justify-between py-6" >
-    <Link to="/" className="logo list-none">David-P.</Link>
-    <ul className="list-none hidden md:flex gap-12">
+    <Link to="/" className="logo list-none" data-aos="fade-down" data-aos-duration="900">David-P.</Link>
+    <ul data-aos="fade-left" data-aos-duration="900" className="list-none hidden md:flex gap-12">
       <Link to="/" className="">Apropos</Link>
       <Link to="/experience" className="">Experiences</Link>
       <Link to="/works" className="">Projets</Link>

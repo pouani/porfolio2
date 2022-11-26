@@ -29,14 +29,25 @@ function Experience() {
     }
 
   return (
-    <div className="exp h-screen px-4 md:px-12 xl:px-16 flex items-center just-fy-center">
-      <Accordion className="w-full" allowZeroExpanded>
+    <div data-aos="zoom-in-up"  data-aos-delay="50" className="exp md:px-12 xl:px-16 px-3 md:py-12 flex flex-col just-fy-center">
+      <h2 className="flex items-center gap-2 ">
+        <span className="h2">Experiences proffessionnelles</span>
+        <hr className="w-1/2 hr mt-1 hidden md:block" />
+      </h2>
+      <br />
+      <Accordion
+        className="w-full border px-4 py-6 rounded-md"
+        allowZeroExpanded
+      >
         {experiences.map((item) => (
-          <AccordionItem key={item.id} onMouseEnter={showBgColor} onMouseLeave={hideBgColor}>
-            <AccordionItemHeading className="mb-6" >
-              <AccordionItemButton className="flex py-3 rounded-md px-2 justify-between" 
-              onClick={showBgColor} style={{backgroundColor: color}}>
-                <h2>{item.name}</h2>
+          <AccordionItem key={item.id}>
+            <AccordionItemHeading className="mb-6">
+              <AccordionItemButton
+                className="overA flex py-3 rounded-md px-2 justify-between"
+                onClick={showBgColor}
+                style={{ backgroundColor: color }}
+              >
+                <h2 className="title-work">{item.name}</h2>
                 <p>{item.describe}</p>
               </AccordionItemButton>
             </AccordionItemHeading>
