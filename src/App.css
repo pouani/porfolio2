@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&family=Inter:wght@300;600;700;900&display=swap');
 
 body{
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 .baseapp{
     background-color: #1E212B;
@@ -89,7 +89,7 @@ body{
 }
 
 .header{
-    height: 70vh;
+    height: auto;
     display: flex;
     align-items: center;
     position: relative;
@@ -340,6 +340,14 @@ h1{
     display: block !important;
     padding: 18px 12px !important;
 } */
+
+.nav-mobile{
+    background: #1E212B;
+    right: 0;
+    z-index: 999;
+    height: 40%;
+    padding: 2rem;
+}
 
 @media screen and (min-width: 850px){
     .header{
