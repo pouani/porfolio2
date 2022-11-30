@@ -52,8 +52,10 @@ function Works() {
                             </li>
                         </ul>
                     </div><br />
-                    <div className="works-img p-4 md:p-12 example-container">
-                        <motion.img whileHover={{ scale: 1.07 }} whileTap={{ scale: 0.8 }} src={medicasure} alt=""/>
+                    <div className="works-img p-4 md:p-12 example-container cursor-pointer">
+                        <a target="_blank" rel="noreferrer" href="https://www.medicasure.com/">
+                            <motion.img whileHover={{ scale: 1.07 }} whileTap={{ scale: 0.8 }} src={medicasure} alt=""/>
+                        </a>
                     </div>
                 </div>
                 
@@ -104,8 +106,10 @@ function Works() {
                             </li>
                         </ul>
                     </div><br />
-                    <div className="works-img p-4 md:p-12 example-container">
-                        <motion.img whileHover={{ scale: 1.07 }} whileTap={{ scale: 0.8 }} src={teleconsultation} alt=""/>
+                    <div className="works-img p-4 md:p-12 example-container cursor-pointer">
+                        <a target="_blank" rel="noreferrer" href="https://www.medicasure.com/">
+                            <motion.img whileHover={{ scale: 1.07 }} whileTap={{ scale: 0.8 }} src={teleconsultation} alt=""/>
+                        </a>
                     </div>
                 </div>
             </div>
