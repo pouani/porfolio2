@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/porfolio2/static/css/main.5a7ecde5.css",
-    "main.js": "/porfolio2/static/js/main.e60e3d00.js",
-    "static/js/787.3b722d45.chunk.js": "/porfolio2/static/js/787.3b722d45.chunk.js",
-    "static/media/medicasure.png": "/porfolio2/static/media/medicasure.e0a2d3354e70b3a9f3f6.png",
-    "index.html": "/porfolio2/index.html",
-    "main.5a7ecde5.css.map": "/porfolio2/static/css/main.5a7ecde5.css.map",
-    "main.e60e3d00.js.map": "/porfolio2/static/js/main.e60e3d00.js.map",
-    "787.3b722d45.chunk.js.map": "/porfolio2/static/js/787.3b722d45.chunk.js.map"
+    "main.css": "/static/css/main.6b298b20.css",
+    "main.js": "/static/js/main.425339ba.js",
+    "static/js/787.3b722d45.chunk.js": "/static/js/787.3b722d45.chunk.js",
+    "static/media/medicasure.png": "/static/media/medicasure.e0a2d3354e70b3a9f3f6.png",
+    "static/media/Dropdown.png": "/static/media/Dropdown.aedc2b0e1675a35428fa.png",
+    "static/media/Loginteleconsultation.png": "/static/media/Loginteleconsultation.970e48259e8ecf860634.png",
+    "index.html": "/index.html",
+    "main.6b298b20.css.map": "/static/css/main.6b298b20.css.map",
+    "main.425339ba.js.map": "/static/js/main.425339ba.js.map",
+    "787.3b722d45.chunk.js.map": "/static/js/787.3b722d45.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a7ecde5.css",
-    "static/js/main.e60e3d00.js"
+    "static/css/main.6b298b20.css",
+    "static/js/main.425339ba.js"
   ]
 }
