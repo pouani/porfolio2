@@ -11,7 +11,7 @@ function Works() {
     const { scrollXProgress } = useScroll({ container: ref });
 
   return (
-    <div className="work px-4 md:px-12 xl:px-16 py-8 mt-24 md:mt-0">
+    <div className="work px-4 md:px-12 xl:px-16 py-8 mt-24">
         <svg id="progress-circle" width="100" height="100" viewBox="0 0 100 100">
             <circle cx="50" cy="50" r="30" pathLength="1" className="bg" style={{strokeDashoffset: 0, strokeWidth: "15%", fill: 'none'}}/>
             <motion.circle
