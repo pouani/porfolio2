@@ -172,7 +172,7 @@ h1{
 
 .h2{
     font-weight: 700;
-    font-size: 48px;
+    font-size: 38px;
     line-height: 58px;
     /* identical to box height */
     letter-spacing: -0.05em;
@@ -362,6 +362,15 @@ h1{
     padding: 2rem;
 }
 
+.work-title{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 39px;
+    /* identical to box height */
+    letter-spacing: -0.05em;
+    color: #FCCA4A;
+}
+
 @media screen and (min-width: 850px){
     .header{
         height: 100vh;
@@ -372,6 +381,10 @@ h1{
         font-size: 72px;
         line-height: 87px;
         letter-spacing: -0.07em;
+    }
+
+    .h2{
+        font-size: 48px;
     }
     .header-text{
         width: 56rem;
@@ -412,12 +425,7 @@ h1{
     }
 
     .work-title{
-        font-weight: 700;
         font-size: 32px;
-        line-height: 39px;
-        /* identical to box height */
-        letter-spacing: -0.05em;
-        color: #FCCA4A;
     }
     .works-img{
         border-radius: 24px;

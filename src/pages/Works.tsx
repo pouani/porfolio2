@@ -33,7 +33,7 @@ function Works() {
             <div data-aos="fade-down" data-aos-duration="1000" className="work-content flex gap-16" ref={ref}>
                 <div className="work-item m-auto">
                     <div className="md:flex justify-between">
-                        <h2 className="work-title">Medicasure</h2>
+                        <h2 className="work-title">@Medicasure</h2>
                         <ul className="flex flex-col items-end">
                             <li className="md:w-3/4">
                                 Plateforme de presentation de service offerts par la structure de sante
@@ -59,7 +59,7 @@ function Works() {
                 
                 <div className="work-item m-auto">
                     <div className="md:flex justify-between">
-                        <h2 className="work-title">Chronotys</h2>
+                        <h2 className="work-title">@Chronotys</h2>
                         <ul className="flex flex-col items-end">
                             <li className="md:w-3/4">
                                 Plateforme de gestion de livraison en ligne(permetttant d'accompagner 
@@ -83,7 +83,7 @@ function Works() {
                 </div>
                 <div className="work-item m-auto">
                     <div className="md:flex justify-between">
-                        <h2 className="work-title">Medicasure</h2>
+                        <h2 className="work-title">@Medicasure</h2>
                         <ul className="flex flex-col items-end">
                             <li className="md:w-3/4">
                                 Plateforme de téléconsultation et prise de rendez-vous en ligne.

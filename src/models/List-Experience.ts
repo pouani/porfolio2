@@ -4,14 +4,15 @@ export const EXPERIENCES: Experiences[] = [
     {
         id: 1,
         name: "Medicasure",
-        describe: "developpeur frontend",
+        describe: "Lead Développeur frontend",
         tasks: [
             "Ecrire du code moderne, perfomant et maintenable pour les projets internes et clients",
             "Travailler avec une varietée de langages, de plate-formes telsque JavaScript, Vuejs, Laravel, Bitbucket, jira",
-            "Definir les meilleurs architectures possibles pour les micro-frontentd futurs",
-            "Assurer la migration en microservices de l'existant",
+            "Definir les meilleurs architectures possibles pour les micro-frontentd atuels ou futurs",
+            "Assurer la migration en microservices du projet existant",
+            "Réaliser des wireframes des modules UI à développer",
             "Communiquer quotidiennement avec les équipes pluridiciplinaires de médecins, de designer, et développeur",
-            "Supperviser le respect d’écriture du code celon le codex frontend définis."
+            "Supperviser le respect d’écriture du code selon le codex frontend définis."
         ]
     },
     {
@@ -20,8 +21,8 @@ export const EXPERIENCES: Experiences[] = [
         describe: "Developpeur frontend",
         tasks: [
             "Ecrire du code moderne, perfomant et maintenable pour les projets clients",
-            "Developper des themes shopify avec Liquid, Json, Javascript, etc",
-            "Communiquer quotidiennement avec les équipes pluridiciplinaires de designer, de creation de contenu, et d'infographes",
+            "Développer et personnaliser des sections des Shops shopify avec Liquid, Json, Javascript, etc",
+            "Communiquer quotidiennement avec les équipes pluridiciplinaires de designer, de créateurs de contenus, et d'infographes",
         ]
     },
     {
@@ -29,20 +30,9 @@ export const EXPERIENCES: Experiences[] = [
         name: "Ads Sarl",
         describe: "Developpeur php stagiaire",
         tasks: [
-            "Continuer le developpement des Apis de transaction money",
+            "Continuer le développement des Apis de transaction money",
             "Test des Apis avec postman",
             "Communiquer quotidiennement avec les équipes pluridiciplinaires de developpeurs web et mobile",
-        ]
-    },
-    {
-        id: 4,
-        name: "Medicasure",
-        describe: "Lead developpeur frontend",
-        tasks: [
-            "Ecrire du code moderne, perfomant et maintenable pour les projets internes et clients",
-            "Travailler avec une varietée de langages, de plate-formes telsque JavaScript, Vuejs, Laravel, Bitbucket, jira",
-            "Communiquer quotidiennement avec les équipes pluridiciplinaires de médecins, de designer, et développeur",
-            "Supperviser le respect d’écriture du code celon le codex frontend définis."
         ]
     },
     {
@@ -51,7 +41,7 @@ export const EXPERIENCES: Experiences[] = [
         describe: "Developpeur frontend",
         tasks: [
             "Ecrire du code moderne, perfomant et maintenable",
-            "Travailler avec une varietée de langages, de plate-formes telsque JavaScript, Html, Jquery",
+            "Travailler avec une varietée de langages telsque JavaScript, Html, Css, Jquery",
             "Communiquer quotidiennement avec les équipes de développeurs Backend",
         ]
     },
@@ -60,12 +50,11 @@ export const EXPERIENCES: Experiences[] = [
         name: "ODC",
         describe: "Developpeur stagiaire .net",
         tasks: [
-            "Apprendre des concepts lies a l'environnement .Net 5",
-            "Parcours les types de bases de donnees, ressortie une differences",
-            "Apprendre les notions de UI/UX designer pour mettre sur pieds des experiences utilisateurs superbes",
-            "Travailler avec une varietée de langages, de plate-formes telsque C#, Asp.net, MySql, Trello",
+            "Apprendre des concepts liés a l'environnement .Net 5",
+            "Apprendre les notions de UI/UX design pour mettre sur pieds des experiences utilisateurs captivants",
+            "Travailler avec une varietée de langages, de plate-formes telsque C#, Asp.net, MySql, Trello, Visual Studio,...",
             "Rediger un busness model, et cahier de charges pour les projets de fin de stage",
-            "Communiquer quotidiennement avec les équipes pluridiciplinaires de médecins, de designer, et développeur et Manager",
+            "Communiquer quotidiennement avec les équipes pluridiciplinaires de médecins, de designer, développeur et Manager",
         ]
     }
 ]

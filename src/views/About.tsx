@@ -29,6 +29,7 @@ function About() {
           <li className="item-tec list-none">Jira</li>
           <li className="item-tec list-none">Bitbucket</li>
           <li className="item-tec list-none">Docker</li>
+          <li className="item-tec list-none">Figma/XD</li>
         </div>
       </div>
       <br />
