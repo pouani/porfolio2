@@ -35,15 +35,14 @@ function Header() {
             </button>
         </div>
         <div className="svg svg-bottom">
-        <svg width="1124" height="264" viewBox="0 0 1124 264" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="-43" cy="419" r="374.5" stroke="#3F4352" stroke-width="55"/>
-            <circle cx="-26.5" cy="418.5" r="391" stroke="#2F3343" stroke-width="55"/>
-            <circle cx="-58.5" cy="403.5" r="359" stroke="#3F4352" stroke-width="55"/>
-            <circle cx="689" cy="419" r="374.5" stroke="#2F3343" stroke-width="55"/>
-            <circle cx="705.5" cy="418.5" r="391" stroke="#2F3343" stroke-width="55"/>
-            <circle cx="673.5" cy="403.5" r="359" stroke="#3F4352" stroke-width="55"/>
-        </svg>
-
+            <svg width="1124" height="264" viewBox="0 0 1124 264" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="-43" cy="419" r="374.5" stroke="#3F4352" stroke-width="55"/>
+                <circle cx="-26.5" cy="418.5" r="391" stroke="#2F3343" stroke-width="55"/>
+                <circle cx="-58.5" cy="403.5" r="359" stroke="#3F4352" stroke-width="55"/>
+                <circle cx="689" cy="419" r="374.5" stroke="#2F3343" stroke-width="55"/>
+                <circle cx="705.5" cy="418.5" r="391" stroke="#2F3343" stroke-width="55"/>
+                <circle cx="673.5" cy="403.5" r="359" stroke="#3F4352" stroke-width="55"/>
+            </svg>
         </div>
     </div>
   )

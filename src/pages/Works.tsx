@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import medicasure from '../images/medicasure.png';
-import teleconsultation from '../images/Assistante2.png';
+import teleconsultation from '../images/Loginteleconsultation.png';
 import deliver from '../images/Dropdown.png';
 import { motion, useScroll } from "framer-motion";
 import GithubProject from '../views/GithubProject';
@@ -56,6 +56,31 @@ function Works() {
                         <motion.img whileHover={{ scale: 1.07 }} whileTap={{ scale: 0.8 }} src={medicasure} alt=""/>
                     </div>
                 </div>
+                
+                <div className="work-item m-auto">
+                    <div className="md:flex justify-between">
+                        <h2 className="work-title">Chronotys</h2>
+                        <ul className="flex flex-col items-end">
+                            <li className="md:w-3/4">
+                                Plateforme de gestion de livraison en ligne(permetttant d'accompagner 
+                                les clients par le suivi de leurs colis).
+                            </li>
+                            <li className="work-out md:flex justify-center md:items-center loat-right w-full md:w-11/12 mt-4">
+                                <ul className="tech grid grid-cols-3 md:flex gap-3">
+                                    <li className="">Firebase</li>
+                                    <li>Tailwind</li>
+                                    <li>Vuejs3</li>
+                                    <li>git</li>
+                                    <li>Github</li>
+                                    <li>Vuelidate</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div><br />
+                    <div className="works-img p-4 md:p-12 example-container">
+                        <motion.img whileHover={{ scale: 1.07 }} whileTap={{ scale: 0.8 }} src={deliver} alt=""/>
+                    </div>
+                </div>
                 <div className="work-item m-auto">
                     <div className="md:flex justify-between">
                         <h2 className="work-title">Medicasure</h2>
@@ -81,30 +106,6 @@ function Works() {
                     </div><br />
                     <div className="works-img p-4 md:p-12 example-container">
                         <motion.img whileHover={{ scale: 1.07 }} whileTap={{ scale: 0.8 }} src={teleconsultation} alt=""/>
-                    </div>
-                </div>
-                <div className="work-item m-auto">
-                    <div className="md:flex justify-between">
-                        <h2 className="work-title">Chronotys</h2>
-                        <ul className="flex flex-col items-end">
-                            <li className="md:w-3/4">
-                                Plateforme de gestion de livraison en ligne(permetttant d'accompagner 
-                                les clients par le suivi de leurs colis).
-                            </li>
-                            <li className="work-out md:flex justify-center md:items-center loat-right w-full md:w-11/12 mt-4">
-                                <ul className="tech grid grid-cols-3 md:flex gap-3">
-                                    <li className="">Firebase</li>
-                                    <li>Tailwind</li>
-                                    <li>Vuejs3</li>
-                                    <li>git</li>
-                                    <li>Github</li>
-                                    <li>Vuelidate</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div><br />
-                    <div className="works-img p-4 md:p-12 example-container">
-                        <motion.img whileHover={{ scale: 1.07 }} whileTap={{ scale: 0.8 }} src={deliver} alt=""/>
                     </div>
                 </div>
             </div>

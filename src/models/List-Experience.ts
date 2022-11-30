@@ -27,7 +27,7 @@ export const EXPERIENCES: Experiences[] = [
     {
         id: 3,
         name: "Ads Sarl",
-        describe: "Developpeur php stagiaire pro",
+        describe: "Developpeur php stagiaire",
         tasks: [
             "Continuer le developpement des Apis de transaction money",
             "Test des Apis avec postman",
@@ -57,7 +57,7 @@ export const EXPERIENCES: Experiences[] = [
     },
     {
         id: 6,
-        name: "Orange Digital Center",
+        name: "ODC",
         describe: "Developpeur stagiaire .net",
         tasks: [
             "Apprendre des concepts lies a l'environnement .Net 5",
