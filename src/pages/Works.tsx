@@ -36,8 +36,8 @@ function Works() {
                         <h2 className="work-title">@Medicasure</h2>
                         <ul className="flex flex-col items-end">
                             <li className="md:w-3/4">
-                                Plateforme de presentation de service offerts par la structure de sante
-                                medicasure, avec differents offresaux services.
+                                Plateforme de présentation de service offerts par la structure de santé
+                                médicasure, avec différentes offres liées.
                             </li>
                             <li className="work-out md:flex justify-center md:items-center loat-right w-full md:w-11/12 mt-4">
                                 
@@ -64,8 +64,8 @@ function Works() {
                         <h2 className="work-title">@Chronotys</h2>
                         <ul className="flex flex-col items-end">
                             <li className="md:w-3/4">
-                                Plateforme de gestion de livraison en ligne(permetttant d'accompagner 
-                                les clients par le suivi de leurs colis).
+                                Plateforme de gestion de livraison en ligne(avec pour objectif l'accompagnement 
+                                des clients sur le suivi de leurs colis).
                             </li>
                             <li className="work-out md:flex justify-center md:items-center loat-right w-full md:w-11/12 mt-4">
                                 <ul className="tech grid grid-cols-3 md:flex gap-3">
