@@ -14,7 +14,7 @@ function Navbar() {
         <li>Soft-skills</li>
       </ul>
       <ul className="md:hidden">
-        <li className='' onClick={() => { translate === "translate(0)" ? setTranslate("translate(100%)") : setTranslate("translate(0)") }}>
+        <li className='cursor-pointer' onClick={() => { translate === "translate(0)" ? setTranslate("translate(100%)") : setTranslate("translate(0)") }}>
           {
             translate !== "translate(0)" ? 
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8">
