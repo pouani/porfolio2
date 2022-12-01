@@ -42,16 +42,16 @@ function About() {
 
         <p className="about_text">
           Salut, je suis Ulrich POUANI et j’aime créer des concepts dédiés au web.
-          Mon interet pour le développement web à commencé dès mon premier stage
+          Mon intérêt pour le développement web à commencé dès mon premier stage
           académique dans une structure de la place nommé EKO-Market Hub
-          éffectuant dans le secteur du e-commerce. J’ai appri entre autre dans
+          éffectuant dans le secteur du e-commerce. J’ai appris entre autre dans
           cette structure à construire mon premier site utilisant pour cela{" "}
           <strong>Html, Css, JavaScript</strong>.
         </p>
         <br />
         <p>
           Aujourd’hui , j’ai le privilège de travailler dans des startups
-          offrants des services digitaux. Actuellement je me concentre
+          offrant des services digitaux. Actuellement je me concentre
           principalement sur la création des produits digitaux médical pour le
           compte de l’entreprise{" "}
           <a
