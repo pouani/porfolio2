@@ -27,7 +27,7 @@ function Experience() {
   return (
     <div className="exp overflow-x-hidden mb-9 md:mb-0 mt-24 md:mt-14 md:m-auto md:px-12 xl:px-16 px-3 md:py-12 flex flex-col justify-center">
       <h2 className="flex items-center gap-2 ">
-        <span className="h2">Expériences proffessionnelles</span>
+        <span className="h2">Expériences professionnelles</span>
         <hr className="w-1/2 hr mt-1 hidden md:block" />
       </h2>
       <br />

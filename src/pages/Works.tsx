@@ -26,7 +26,7 @@ function Works() {
         <div className="">
             <h2 data-aos="fade-up"
                 data-aos-anchor-placement="bottom-center" className="flex items-center gap-2 mb-16">
-                <span className="h2">Projects Réalisés</span>
+                <span className="h2">Project Réalisés</span>
                 <hr className="w-1/2 hr mt-2 ml-2 hidden md:block"/>
             </h2><br />
 
@@ -36,8 +36,8 @@ function Works() {
                         <h2 className="work-title">@Medicasure</h2>
                         <ul className="flex flex-col items-end">
                             <li className="md:w-3/4">
-                                Plateforme de présentation de service offerts par la structure de santé
-                                médicasure, avec différentes offres liées.
+                                Plateforme de présentation des services offerts par la structure de santé
+                                médicasure, avec différentes offres associées.
                             </li>
                             <li className="work-out md:flex justify-center md:items-center loat-right w-full md:w-11/12 mt-4">
                                 
@@ -89,7 +89,7 @@ function Works() {
                         <ul className="flex flex-col items-end">
                             <li className="md:w-3/4">
                                 Plateforme de téléconsultation et prise de rendez-vous en ligne.
-                                Basée sur des appels VoiIp vers Gsm et gestion d'alertes.
+                                Basée sur des appels VoixIp vers Gsm et gestion d'alertes.
                             </li>
                             <li className="work-out md:flex justify-center md:items-center loat-right w-full md:w-11/12 mt-4">
                                 
