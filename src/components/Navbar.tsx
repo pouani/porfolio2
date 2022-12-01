@@ -32,12 +32,14 @@ function Navbar() {
             <Link to="/works" className="">Projets</Link>
             <li>Soft-skills</li>
           </ul>
-          <button className="mt-8 cursor-pointer header-btn flex items-center w-44">
-            <span>Me contacter</span>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-            </svg>
-          </button>
+          <button className="mt-8 cursor-pointer header-btn w-44">
+                <a className='flex items-center' target="_blank" rel="noreferrer" href="https://wa.me/+237699143636">
+                    <span>Me contacter</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </a>
+            </button>
         </div>
       </ul>
     </nav>
