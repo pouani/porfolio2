@@ -21,8 +21,8 @@ function Header() {
                 <p className="mt-8 header-text">
                     Développeur web passionné par l’UI design et l’architecture micro-frontend, 
                     je conçois des expériences numériques exceptionnelles. Ma capacité d’adaptation 
-                    me permet d’exercer dans des domains divers avec une bonne courbe d’adaptation.
-                    Actuellement, je me concentre  sur la création des produits accessibles par l’humain et dédiés
+                    me permet d’exercer dans des domaines divers avec une bonne courbe d’adaptation.
+                    Actuellement, je me concentre sur la création des produits accessibles par l’humain et dédiés
                     au secteur médical chez <a className="copy-name" target="_blank" rel="noreferrer" href="https://www.medicasure.com/">@medicasure.</a>
                 </p>
             </div>
